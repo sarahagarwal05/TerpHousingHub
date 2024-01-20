@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerpHousingHub - Off-Campus Housing</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;1,600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #f0f0f0; /* Adjust as needed */
+        }
+        .navbar {
+            background-color: #333; /* Adjust as needed */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .housing-card {
+            background-color: #ffffff; /* Adjust as needed */
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .housing-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+        .housing-image {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar Section (Similar to the homepage) -->
+    <div class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+                <div id="title">
+                    TerpHousingHub
+                </div>
+                <img src="images/maryland_logo.jpg" id="logo" height="75" width="75">
+            </a>
+            <div id="tagline-container">
+                | On-Campus & Off-Campus Ratings & Reviews
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/residential.html" class="navbar__links"> Residential Halls </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/off-campus.html" class="navbar__links"> Off-Campus Apartments </a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar__search">
+            <form>
+                <input type="text" placeholder="Search for housing...">
+                <a href="/" class="button"> Search </a>
+            </form>
+        </div>
+    </div>
+
+    <!-- Off-Campus Housing Section -->
+    <div class="container">
+        <h1>Off-Campus Housing</h1>
+
+        <div class="housing-card">
+            <img src="images/housing1.jpg" alt="Housing 1" class="housing-image">
+            <h2 class="housing-title">Off-Campus Housing 1</h2>
+            <!-- Additional housing information or details -->
+        </div>
+
+        <div class="housing-card">
+            <img src="images/housing2.jpg" alt="Housing 2" class="housing-image">
+            <h2 class="housing-title">Off-Campus Housing 2</h2>
+            <!-- Additional housing information or details -->
+        </div>
+
+        <!-- Repeat the housing card structure for other housing options -->
+
+    </div>
+
+    <!-- ... (your existing scripts and footer) ... -->
+</body>
+</html>
